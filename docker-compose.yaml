@@ -28,3 +28,4 @@ services:
         - SQS_VISIBILITY_TIMEOUT=100
         - SQS_API_VERSION=2012-11-05
         - TZ=Australia/Sydney
+        - NUMBER_OF_CONSUMERS=2
